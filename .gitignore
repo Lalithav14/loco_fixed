@@ -1,0 +1,22 @@
+# Ignore everything
+*
+
+# Allow directories (VERY IMPORTANT)
+!*/
+
+# Allow only these file types
+!*.v
+!*.py
+
+# Allow these files
+!.gitignore
+!README.md
+
+# Explicit ignores
+*.hex
+*.docx
+*.yuv
+*.vcd
+sim*
+rice-react/
+rice-viz/
